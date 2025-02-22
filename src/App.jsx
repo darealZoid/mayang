@@ -13,9 +13,7 @@ function App() {
       <div className="fixed bottom-0 flex justify-center w-full p-4 rounded-lg ">
         <nav className="bg-[rgba(255,173,251,0.69)] backdrop-blur-md flex gap-8 flex-row justify-center rounded-lg px-4 py-2">
           <div>
-            <p className="font-black italic text-[rgb(104,61,106)]">
-              Galleries
-            </p>
+            <p className="font-black italic text-[rgb(104,61,106)]">Gallery</p>
           </div>
           <div>
             <ul className="flex flex-row gap-2">
