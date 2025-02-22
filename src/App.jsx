@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="m-4">
+    <div className="h-full relative w-full">
       <div className="fixed bottom-0 flex justify-center w-full p-4 rounded-lg ">
         <nav className="bg-[rgba(255,173,251,0.69)] backdrop-blur-md flex gap-8 flex-row justify-center rounded-lg px-4 py-2">
           <div>
@@ -30,7 +30,11 @@ function App() {
           </div>
         </nav>
       </div>
-      Coming Soon...
+      <div className=" flex justify-center h-[100vh] w-full items-center">
+        <p className="text-[5em] font-black text-[rgb(104,61,106)]">
+          Coming Soon...
+        </p>
+      </div>
     </div>
   );
 }
