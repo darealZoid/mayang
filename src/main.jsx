@@ -10,7 +10,7 @@ import Events from "./Routes/Events/Events.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/mayang",
     element: <App />,
   },
   {
