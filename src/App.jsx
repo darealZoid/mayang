@@ -33,6 +33,7 @@ function App() {
       <div className=" flex justify-center h-[100vh] w-full items-center">
         <p className="text-[5em] font-black text-[rgb(104,61,106)]">
           Coming Soon...
+          <p className="text-sm text-right text-red-400">Ily {"<3"}</p>
         </p>
       </div>
     </div>

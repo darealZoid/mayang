@@ -5,7 +5,7 @@ const NotFoundPage = () => {
   return (
     <div>
       <h1>Not Found Page!</h1>
-      <Link to={"/"}>Go Back Home</Link>
+      <Link to={"/mayang"}>Go Back Home</Link>
     </div>
   );
 };
