@@ -10,7 +10,7 @@ import Events from "./Routes/Events/Events.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/mayang",
+    path: "/",
     element: <App />,
   },
   {
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <NotFoundPage />,
+    element: <App />,
   },
 ]);
 
