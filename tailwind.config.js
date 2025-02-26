@@ -5,6 +5,7 @@ export default {
     extend: {
       screens: {
         xsm: "500px",
+        phone: "420px",
       },
     },
   },
